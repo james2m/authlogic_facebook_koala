@@ -19,6 +19,12 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('authlogic', "~>2.1.3")
   s.add_runtime_dependency('authlogic_facebook_shim', ">=0.3.3")
   
-  s.post_install_message = %q{ This Rubygem has been superseded by authlogic_facebook_shim. It has been installed for you as a dependency but in the future you can install it directly.}
+  s.post_install_message = %q{
+================================================================================
+The authlogic_facebook_koala gem has been superseded by authlogic_facebook_shim.
+It has been installed for you as a dependency but in the future you can install
+it directly.
+================================================================================
+}
 end
 

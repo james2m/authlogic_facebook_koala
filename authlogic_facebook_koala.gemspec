@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{authlogic_facebook_koala}
-  s.version = "0.3.1"
+  s.version = "0.3.2"
   s.authors = ["James McCarthy"]
   s.date = %q{2011-04-17}
   s.description = %q{Authlogic plugin to support Facebook OAuth2 javascript sessions. This is now just a facade for authlogic_facebook_shim so please use that instead.}
@@ -21,9 +21,13 @@ Gem::Specification.new do |s|
   
   s.post_install_message = %q{
 ================================================================================
+
 The authlogic_facebook_koala gem has been superseded by authlogic_facebook_shim.
 It has been installed for you as a dependency but in the future you can install
 it directly.
+
+$ gem install authlogic_facebook_shim
+
 ================================================================================
 }
 end
